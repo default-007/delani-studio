@@ -1,0 +1,10 @@
+.jumbotron {
+  background-image: url(../assets/backgrounds/h_img.jpg);
+  height: 1000px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+}

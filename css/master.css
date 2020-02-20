@@ -14,8 +14,12 @@ body {
   color: aliceblue;
 }
 
-.about-sec {}
+.about-sec {
+  padding: 100px;
+}
 
 .services-sec {
   background-image: url(../assets/backgrounds/s_image.jpg);
+  color: aliceblue;
+  padding: 100px;
 }

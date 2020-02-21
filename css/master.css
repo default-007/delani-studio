@@ -1,5 +1,10 @@
 body {
   text-align: center;
+  font-family: 'Oswald', serif;
+}
+
+.content-header {
+  font-weight: bold;
 }
 
 .jumbotron {

@@ -46,3 +46,9 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.form-inline {
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+}

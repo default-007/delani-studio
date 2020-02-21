@@ -27,3 +27,16 @@ body {
 .whatwedo-sec {
   padding: 100px;
 }
+
+.content-body {
+  justify-content: center;
+}
+
+.contact-sec {
+  background-image: url(../assets/backgrounds/c_image.jpg);
+  color: aliceblue;
+  padding: 100px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

@@ -37,7 +37,7 @@ body {
   padding: 100px;
 }
 
-
+/*CONTACT*/
 .contact-sec {
   padding: 100px;
   background-image: url(../assets/backgrounds/c_image.jpg);
@@ -51,4 +51,15 @@ body {
   display: flex;
   align-items: center;
   vertical-align: middle;
+}
+
+/*SOCIAL*/
+.social-ul {
+  text-align: center;
+  padding-left: 0;
+}
+
+.social-li {
+  display: inline-block;
+  list-style: none;
 }

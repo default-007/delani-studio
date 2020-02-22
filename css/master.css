@@ -3,6 +3,11 @@ body {
   font-family: 'Oswald', serif;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .content-header {
   font-weight: bold;
   padding: 30px;

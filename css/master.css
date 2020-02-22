@@ -5,6 +5,7 @@ body {
 
 .content-header {
   font-weight: bold;
+  padding: 30px;
 }
 
 .jumbotron {
@@ -21,6 +22,10 @@ body {
 
 .jumbotron-text {
   margin-top: 150px;
+}
+
+.jumbotron-text h1 {
+  font-size: 50px;
 }
 
 .jumbotron-text img {
@@ -48,13 +53,24 @@ body {
   text-align: center;
 }
 
+.design-text {
+  display: none;
+}
+
+.development-text {
+  display: none;
+}
+
+.product-text {
+  display: none;
+}
+
 .content-body {
   justify-content: center;
 }
 
 .portfolio-sec {
   padding: 100px;
-  margin: 50px;
 }
 
 .col-3 {
@@ -77,6 +93,10 @@ body {
   display: flex;
   align-items: center;
   vertical-align: middle;
+}
+
+textarea {
+  background: transparent;
 }
 
 /*FOOTER*/

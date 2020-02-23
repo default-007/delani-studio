@@ -168,7 +168,7 @@
 				<h2>CONTACT US</h2>
 			</div>
 			<div class="content-body">
-				<form class="row form-inline">
+				<form class="row form-inline" onsubmit="getname()">
 					<div class="form-group col-md-6">
 						<label class="sr-only" for="name">Name</label>
 						<input type="name" class="form-control" id="name" placeholder="Name..." />
@@ -183,6 +183,10 @@
 			<div class="textbox">
 				<label class="sr-only" for="textbox">textbox</label>
 				<textarea class="form-control" rows="8">Your message here....</textarea>
+			</div>
+			<br>
+			<div>
+				<button type="submit" onclick="getname()">SUBMITS</button>
 			</div>
 		</div>
 

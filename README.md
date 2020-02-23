@@ -1,5 +1,5 @@
 # delani-studio
-A webpage for a studio
+A recreation of webpage for a fictional studio
 #### {21st Feb 2020}
 
 ## Description

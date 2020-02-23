@@ -131,8 +131,15 @@ img {
   vertical-align: middle;
 }
 
-textarea {
+.form-control {
   background: transparent;
+  border-color: white;
+  border-width: 2px;
+  color: white;
+}
+
+.form-group .col-md-6 {
+  color: white;
 }
 
 /*FOOTER*/

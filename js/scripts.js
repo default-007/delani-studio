@@ -24,3 +24,14 @@ $(document).ready(function () {
     $(".product-text").hide();
   });
 });
+
+$(document).ready(function () {
+  $(".col-md-3").mouseover(function () {
+    $(".col-md-3").css("border-size", "5px");
+  });
+
+  function getname() {
+    var name = document.getElementById("name");
+    alert(name + "we have received your message. Thank you for reaching out to us.");
+  }
+});

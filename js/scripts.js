@@ -40,3 +40,8 @@ function myname() {
     alert(name + "" + "we have recieved your message");
   };
 };
+
+
+function reset() {
+  document.getElementById("myform").reset();
+}

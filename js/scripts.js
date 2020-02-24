@@ -29,9 +29,14 @@ $(document).ready(function () {
   $(".col-md-3").mouseover(function () {
     $(".col-md-3").css("border-size", "5px");
   });
-
-  function getname() {
-    var name = document.getElementById("name");
-    alert(name + "we have received your message. Thank you for reaching out to us.");
-  }
 });
+
+
+function myname() {
+  var name = document.getElementById("name").value;
+  if (name === "" || email == "") {
+    alert("Please enter name and email correctly...");
+  } else {
+    alert(name + "" + "we have recieved your message");
+  };
+};
